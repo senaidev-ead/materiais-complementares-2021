@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form name="cadastro" onsubmit="validar()">
+        <label>Nome</label>
+        <input type="text" name="nome" id="nome" required><br>
+        <label>Dia</label>
+        <input type="text" name="dia" id="dia" required>
+        <label>Mês</label>
+        <input type="text" name="mes" id="mes" required>
+        <label>Ano</label>
+        <input type="text" name="ano" id="ano" required><br>
+        <label>CPF</label>
+        <input type="text" name="cpf" id="cpf" required>
+
+        <label>Esportes de interesse:</label><br>
+        <input type="checkbox" name="sport" id="e1" value="Futebol">Futebol<br>
+        <input type="checkbox" name="sport" id="e2" value="Vôlei">Vôlei<br>
+   
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    <script src="form.js"></script>
+</body>
+</html>
