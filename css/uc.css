@@ -1,0 +1,17 @@
+
+.uc{
+    text-align: center;
+}
+
+.breadcrumb{
+    margin-top: 10px;
+}
+
+.breadcrumb-item a{
+    color: crimson;
+    font-weight: bold;
+}
+
+h1{
+    padding: 30px 0;
+}
